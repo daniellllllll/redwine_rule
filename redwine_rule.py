@@ -18,8 +18,8 @@ df = DataFrame(file)
 df.head()
 
 #定義品質高的紅酒等級為何
-#plt.hist(df["quality"])
-#plt.show()
+plt.hist(df["quality"])
+plt.show()
 
 #為使用CART 將品質7與8定義為1 其餘定義為0
 new_quality = df["quality"].replace({7:1, 8:1, 6:0, 5:0, 4:0, 3:0})
@@ -59,6 +59,7 @@ graph.write_pdf("wine.pdf")
 
 
 #利用randomforest執行
+#參考網站http://xccds1977.blogspot.tw/2014/10/python_26.html
 clf2 = RandomForestClassifier(n_estimators=1500, random_state=50)
 clf2 = clf2.fit(X_train, y_train)
 score2  =cross_validation.cross_val_score(clf2, x, y, cv=10)
