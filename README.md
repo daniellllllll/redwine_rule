@@ -13,6 +13,8 @@ http://archive.ics.uci.edu/ml/datasets/Wine
 
 CART演算法套件使用python的scikit-learn
 
-在程式最後參考http://xccds1977.blogspot.tw/2014/10/python_26.html，用RandomForest跑一次該筆資料，並與CART比較成效
+在程式最後參考http://xccds1977.blogspot.tw/2014/10/python_26.html
+
+用RandomForest跑一次該筆資料，並與CART比較成效
  
 希望大家參考看看，並給予指導 ＾＿＾
