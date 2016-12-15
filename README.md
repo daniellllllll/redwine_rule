@@ -15,6 +15,7 @@ http://archive.ics.uci.edu/ml/datasets/Wine
 ![image](https://github.com/daniellllllll/redwine_rule/blob/master/wine-1.png)
 
 Confusion matrix
+
 [[418   5]
 [ 42  15]]
 
