@@ -17,6 +17,7 @@ http://archive.ics.uci.edu/ml/datasets/Wine
 Confusion matrix
 
 [[418   5]
+
 [ 42  15]]
 
 CART演算法套件使用python的scikit-learn
