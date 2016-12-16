@@ -25,7 +25,11 @@ Fig.2 the decision tree which ran the CART
 建立的model的準確度結果為90％，顯示使用CART可以有相當不錯的準確程度。
 
 
-為更清楚看預測結果，利用混屯矩陣視覺化，整體準確度的確為90%，但只單看高品質則可發現實際為高品質但分類成低品質的型二誤差筆數有42筆
+為更清楚看預測結果，利用混屯矩陣視覺化，整體準確度的確為90%。
+但只單看高品質則可發現實際為高品質但分類成低品質的型二誤差筆數有42筆
+
+
+
 ![image](https://github.com/daniellllllll/redwine_rule/blob/master/cm.png)
 Fig.3 Confusion matrix
 
