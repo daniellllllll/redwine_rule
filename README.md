@@ -14,9 +14,10 @@ http://archive.ics.uci.edu/ml/datasets/Wine
 fig.1 the histogram of different qualities
 
 
+
 Fig.2是將品質分類完成之後經過CART分類之後所生成的樹
 ![image](https://github.com/daniellllllll/redwine_rule/blob/master/wine-1.png)
-fig. the decision tree which ran the CART 
+fig.2 the decision tree which ran the CART 
 
 
 建立的model的準確度結果為90％，顯示使用CART可以有相當不錯的準確程度。
