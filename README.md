@@ -11,6 +11,7 @@ http://archive.ics.uci.edu/ml/datasets/Wine
 
 區分方法為將所以資料依照不同品質畫出直方圖(fig.1所示），在此將品質7和8分類為高品質，其餘分類成低品質
 ![image](https://github.com/daniellllllll/redwine_rule/blob/master/hiostogram.png)
+
 fig.1 the histogram of different qualities
 
 
