@@ -9,6 +9,8 @@ from sklearn.ensemble import RandomForestClassifier
 import pydotplus
 from sklearn.externals.six import StringIO
 
+import matplotlib.pyplot as plt
+from mlxtend.evaluate import plot_confusion_matrix
 
 
 #讀取資料
@@ -58,11 +60,15 @@ graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
 graph.write_pdf("wine.pdf")
 
 
-#利用randomforest執行
-#參考網站http://xccds1977.blogspot.tw/2014/10/python_26.html
-clf2 = RandomForestClassifier(n_estimators=1500, random_state=50)
-clf2 = clf2.fit(X_train, y_train)
-score2  =cross_validation.cross_val_score(clf2, x, y, cv=10)
-clf2.feature_importances_
+#run confusion matrix
+def measure_performance(X, y, clf, show_confusion_matrix=True):
+    y_pred = clf.predict(X)
+    print("Confusion matrix")
 
-print(score2.mean(),score.mean())
+    cm=metrics.confusion_matrix(y, y_pred)
+    print(cm, "\n")
+
+    fig, ax = plot_confusion_matrix(conf_mat=cm)
+    plt.show()
+
+measure_performance(X_test,y_test,clf,show_confusion_matrix=True)
