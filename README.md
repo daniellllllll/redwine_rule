@@ -29,6 +29,7 @@ Fig.2 the decision tree which ran the CART
 但只單看高品質則可發現實際為高品質但分類成低品質的型二誤差筆數有42筆
 
 ![image](https://github.com/daniellllllll/redwine_rule/blob/master/cm.png)
+
 Fig.3 Confusion matrix
 
 
