@@ -16,9 +16,7 @@ http://archive.ics.uci.edu/ml/datasets/Wine
 
 Confusion matrix
 
-[[418   5]
-
-[ 42  15]]
+![image](https://github.com/daniellllllll/redwine_rule/blob/master/cm.png)
 
 CART演算法套件使用python的scikit-learn
 
