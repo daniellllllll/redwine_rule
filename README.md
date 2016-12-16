@@ -12,13 +12,14 @@ http://archive.ics.uci.edu/ml/datasets/Wine
 區分方法為將所以資料依照不同品質畫出直方圖(fig.1所示），在此將品質7和8分類為高品質，其餘分類成低品質
 ![image](https://github.com/daniellllllll/redwine_rule/blob/master/hiostogram.png)
 
-fig.1 the histogram of different qualities
+Fig.1 the histogram of different qualities
+
 
 
 
 Fig.2是將品質分類完成之後經過CART分類之後所生成的樹
 ![image](https://github.com/daniellllllll/redwine_rule/blob/master/wine-1.png)
-fig.2 the decision tree which ran the CART 
+Fig.2 the decision tree which ran the CART 
 
 
 建立的model的準確度結果為90％，顯示使用CART可以有相當不錯的準確程度。
@@ -26,7 +27,7 @@ fig.2 the decision tree which ran the CART
 
 為更清楚看預測結果，利用混屯矩陣視覺化，整體準確度的確為90%，但只單看高品質則可發現實際為高品質但分類成低品質的型二誤差筆數有42筆
 ![image](https://github.com/daniellllllll/redwine_rule/blob/master/cm.png)
-fig.3 Confusion matrix
+Fig.3 Confusion matrix
 
 
 CART演算法套件使用python的scikit-learn
