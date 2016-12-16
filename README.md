@@ -16,7 +16,6 @@ Fig.1 the histogram of different qualities
 
 
 
-
 Fig.2是將品質分類完成之後經過CART分類之後所生成的樹
 ![image](https://github.com/daniellllllll/redwine_rule/blob/master/wine-1.png)
 Fig.2 the decision tree which ran the CART 
